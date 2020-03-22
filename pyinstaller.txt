@@ -1,0 +1,10 @@
+pyinstaller bundles a  python application and all its dependencies into a single package.
+
+=> To install pyinstaller
+pip install PyInstaller
+
+convert py to exe(When exe file open, automatically commant prompt will open):
+pyinstaller python_file_name --onefile
+
+convert py to exe(When exe file open, automatically commant prompt will not open)
+pyinstaller python_file_name --onefile -w
